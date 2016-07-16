@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="description" content="Contribute - Suit Up, a not-for-profit organization, custom tailors donated business attire to not only affirm the dignity of all men seeking professional opportunities, but to also inspire a community of giving.">
+
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"/>
+
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link rel="shortcut icon" type="image/x-icon" href="images/logoclear.png"/>
+ <title>Suit Up Denver - Contribute</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+    <body>
+
+        <div class="wrapper">
+        <header>
+
+            <script type="text/javascript">
+
+                function toggle_menu(id)
+                {
+                var element = document.getElementById(id);
+                if(element.style.display == 'block')
+                {
+                element.style.display = 'none';
+                }
+                else
+                {
+                element.style.display = 'block';
+                }
+                }
+
+            </script>
+
+
+                <a href="#" onclick="toggle_menu('top-nav');" class="toggle-menu">
+                <br>
+                <img src="images/hamburger.png" width="30" alt="Menu Icon"/>
+                <br>
+                </a>
+
+                <div class="logo">
+
+                    <a  href="index.html"><img id="logo" src="images/logo.jpg"></a>
+
+                </div>
+
+                <nav id="top-nav">
+                    <ul>
+                    <li class="homewhite"><a href="aboutus.html">About</a></li>
+                    <li class="homewhite"><a href="team.html">Team</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                    <li class="homewhite"><a href="contribute.html">Contribute</a></li>
+                    </ul>
+                </nav>
+
+
+
+        </header>
+        <main>
+
+            <div class="row">
+                    <div class="full_column">
+
+                        <hr>
+
+                        <h1>Help Us Out</h1>
+
+                        <hr>
+
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="one_half">
+
+                        <h2 class="center">Suit Donation</h2>
+
+
+
+                         <form class="form" action="contact.php" method="POST">
+                            <p style="color: #1D437F">Name</p>
+                            <input type="text" name="name" />
+                            <p style="color: #1D437F">Email</p>
+                            <input type="text" name="email" />
+                            <p style="color: #1D437F">How can we help you?</p>
+                            <textarea name="message" rows="6" cols="25"></textarea>
+                            <div class="buttonwrapper">
+                                <button type="submit" class="btn btn-primary button">Send</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="one_half">
+
+                        <h2 class="center">Monetary Donation</h2>
+
+
+                        <div class="paypal">
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="XPFBBGZX9F626">
+                        <input type="image" src="images/donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="10" height="26">
+                        </form>
+                        </div>
+
+                    </div>
+                </div>
+
+        </main>
+        <footer>
+
+                <div class="row">
+                    <div class="one_third">
+                        <h3>Our Tax Filings</h3>
+
+                        <hr>
+
+                        <p><a class="bright" href="https://www.irs.gov/pub/irs-pdf/f1023.pdf" target="_blank">Form 1023</a></p>
+                        <p><a class="bright" href="https://www.irs.gov/uac/About-Form-1023" target="_blank">IRS acceptance of application of Form 1023</a></p>
+                        <p><a class="bright" href="images/taxthing.jpg" target="_blank">PDF of Our Accepted Application for §501(c)(3) non-profit organization</a></p>
+                    </div>
+                    <div class="one_third">
+                        <h3>Helpful Tax Links for You</h3>
+
+                        <hr>
+
+                        <p><a class="bright" href="https://www.irs.gov/pub/irs-pdf/p561.pdf" target="_blank">Determine the Value of Donated Property (IRS Publication 561)</a></p>
+                        <p><a class="bright" href="https://www.irs.gov/pub/irs-pdf/p526.pdf" target="_blank">Charitable Contributions (IRS Publication 526)</a></p>
+                        <p><a class="bright" href="https://www.irs.gov/pub/irs-pdf/f8283.pdf" target="_blank">Noncash Charitable Contributions (Form 8283)</a></p>
+                        <p><a class="bright" href="https://www.irs.gov/pub/irs-pdf/i8283.pdf" target="_blank">Instructions for Form 8283</a></p>
+                    </div>
+                    <div class="one_third">
+                        <h3>Follow Us</h3>
+
+
+
+                             <hr>
+
+                        <a href="#"><img class="social" src="images/facebook.PNG"></a>
+                        <a href="#"><img class="social" src="images/twitter.PNG"></a>
+                        <a href="mailto:suitupdenver@gmail.com"><img class="social" src="images/mail.PNG"></a>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="full_column">
+                        <h5>Copyright © 2015 Suit Up Denver</h5>
+                    </div>
+                </div>
+
+        </footer>
+        </div>
+    </body>
+</html>
