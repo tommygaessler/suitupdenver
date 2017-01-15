@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Suit Up Denver! Suit Up, a non-profit organization based in Denver, custom tailors donated business attire to not only affirm the dignity of all men seeking professional opportunities, but to also inspire a community of giving. Home - Non-profit organization based in Denver">
 
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"/>
 
 
   <link href="style.css" rel="stylesheet" type="text/css"/>
